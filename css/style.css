@@ -3,9 +3,33 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
+  list-style: none;
   }
+
+header{
+  background-color: #0e70c7;
+  padding: 1px 0px;
+}
+.lista{
+  display: inline-block;
+  width: 100%;
+  padding-left: 211px;
+}
+.mlf-6{
+  margin: 0 5px;
+}
+.centrado-vertical{
+  align-items: center;
+}
+.centrado-vertical2{
+  font-variant: all-small-caps;
+}
+.fz-12{
+  font-size: 12px
+}
