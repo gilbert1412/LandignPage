@@ -31,14 +31,11 @@ html {
   color: antiquewhite;
   border: 1px solid white  !important;
 }
-.btn-mas:hover{
+.btn-mas:hover,.btn-hover:hover{
   background-color: rgb(255, 255, 255) !important;
   color: blue !important;
 }
-.btn-hover:hover{
-  background-color: rgb(255, 255, 255) !important;
-  color: blue !important;
-}
+
 /*Fin slider*/
 
 /*Animaciones*/
