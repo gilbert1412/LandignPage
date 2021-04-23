@@ -13,7 +13,6 @@ html {
   }
 
 header{
-  background-color: #0e70c7;
   padding: 1px 0px;
 }
 .lista{
@@ -32,4 +31,13 @@ header{
 }
 .fz-12{
   font-size: 12px
+}
+.fz-42{
+  font-size: 37px;
+}
+h4 strong{
+  font-size: 15px;
+}
+.ns{
+  font-size: 12px;
 }
