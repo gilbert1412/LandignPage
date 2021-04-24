@@ -43,3 +43,14 @@ html {
   --animate-delay: 9s;
   --animate-duration: 3s;
 }
+
+.container{
+  height: 100vh;
+  background-color: aqua;
+}
+.content-1{
+  
+}
+.img-conten-1{
+  width: 900px;
+}
