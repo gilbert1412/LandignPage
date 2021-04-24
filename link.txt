@@ -1,0 +1,2 @@
+https://animate.style/
+Se utilizo CDN Y SE INCORPORAARON LAS CLASES A LOS DIV
