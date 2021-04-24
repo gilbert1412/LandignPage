@@ -44,11 +44,9 @@ html {
   --animate-duration: 3s;
 }
 
-.container{
-  height: 100vh;
-  background-color: aqua;
-}
 
-.img-conten-1{
-  width: 900px;
+
+.img-content{
+  width:550px !important;
+  height:300px !important;
 }
