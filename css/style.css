@@ -41,3 +41,36 @@ h4 strong{
 .ns{
   font-size: 12px;
 }
+
+
+/*FORMULARIO*/
+.contact{
+  justify-content: center;
+}
+.form{
+  justify-content: center;
+}
+.form input{
+  border-radius: 30px;
+  background-color:#eaf3ff ;
+  height: 50px;
+}
+.form textarea{
+  border-radius: 30px;
+  background-color: #eaf3ff ;
+}
+.boton-envio{
+  display: flex;
+  justify-content: center;
+}
+.boton-hover{
+  height: 47px;
+    width: 148px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding-top: 20px;
+}
+.boton-hover:hover{
+  background-color: rgb(241, 203, 95);
+}
