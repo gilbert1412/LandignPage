@@ -39,6 +39,12 @@ a span:hover{
   border-radius: 100px;
   background-color:rgb(136, 136, 136);
 }
+.colors-iten{
+  color: red !important;
+}
+.color-menu{
+  background-color: #E4E4E4;
+}
 .lista{
   display: inline-block;
   width: 100%;
