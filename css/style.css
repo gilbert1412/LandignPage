@@ -26,6 +26,9 @@ header{
 header a{
   text-decoration: none !important;
 }
+.icon-size{
+  font-size: 40px;
+}
 a span{
 
   color: black !important;
@@ -117,4 +120,14 @@ h4 strong{
   height:300px !important;
   border: 10px solid red;
   
+}
+.contactos{
+  background-color:rgb(170, 15, 22);
+
+}
+.text-colr{
+ color: white;
+}
+.btn-size{
+  width: 200px !important;
 }
