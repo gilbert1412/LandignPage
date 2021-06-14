@@ -14,6 +14,10 @@
     <!--normalize=Resetar los valores por defecto-->
     <link rel="stylesheet" href="css/style.css">
 
+
+    <!--Tipografia-->
+    <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+    
     <!--CDN CSS MOVIMIENTO-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -89,7 +93,7 @@
         
         <ul class="navbar-nav mx-auto">
           <li>
-            <a class="nav-link" href="#"> <strong> INICIO </strong></a>
+            <a class="nav-link text-white" href="#"> <strong> INICIO </strong></a>
           </li>
           
           <li class="nav-item dropdown colors-iten">
@@ -126,29 +130,29 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/slider1.png" class="d-block w-100" alt="...">
+          <img src="img/slider1.png" class="d-block w-100 h-auto" alt="...">
           <div class="carousel-caption">
-            <h3 class="animate__animated animate__backInDown">First slide label</h3>
-            <p class="animate__animated animate__backInDown">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            <a href="#" class="btn btn-primary btn-hover  animate__animated animate__backInDown">LEARN MORE</a>
+            <h3 class="animate__animated animate__backInDown  text-carrusel">First slide label</h3>
+            <p class="animate__animated animate__backInDown  ">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <a href="#" class="btn btn-danger btn-hover  animate__animated animate__backInDown">LEARN MORE</a>
             <a href="#" class="btn btn-primary btn-mas animate__animated animate__backInDown">LEARN MORE</a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/slider3.png" class="d-block w-100" alt="...">
+          <img src="img/slider3.png" class="d-block w-100  h-auto" alt="...">
           <div class="carousel-caption">
-            <h3 class="animate__animated animate__backInLeft">Second slide label</h3>
-            <p class="animate__animated animate__backInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#" class="btn btn-primary btn-hover animate__animated animate__backInLeft">LEARN MORE</a>
+            <h3 class="animate__animated animate__backInLeft ">Second slide label</h3>
+            <p class="animate__animated animate__backInLeft ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-danger btn-hover animate__animated animate__backInLeft">LEARN MORE</a>
             <a href="#" class="btn btn-primary btn-mas animate__animated animate__backInLeft">LEARN MORE</a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/slider1.png" class="d-block w-100" alt="...">
+          <img src="img/slider1.png" class="d-block w-100  h-auto " alt="...">
           <div class="carousel-caption">
             <h3 class="animate__animated animate__rotateInDownLeft">Third slide label</h3>
             <p class="animate__animated animate__rotateInDownLeft">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            <a  href="#" class="btn btn-primary btn-hover animate__animated animate__rotateInDownLeft">LEARN MORE</a>
+            <a  href="#" class="btn btn-danger btn-hover animate__animated animate__rotateInDownLeft">LEARN MORE</a>
             <a  href="#" class="btn btn-primary btn-mas animate__animated animate__rotateInDownLeft">LEARN MORE</a>
           </div>
         </div>
@@ -163,10 +167,10 @@
       </a>
     </div>
     
-    <div class="d-flex justify-content-center bg-primary">
+    <div class="d-flex justify-content-center bg-danger">
       <div class="row">
         <div class="col-md-12">
-          <h4 class="text-light pt-5 mb-5">Bienvenidos al Colegio XXX</h4>
+          <h4 class="text-light pt-5 mb-5">Bienvenidos al Colegio Fe y Alegria N° 68</h4>
         </div>
       </div>
       
@@ -182,18 +186,82 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo non, eos quos porro 
             fugiat veniam, odio quae nihil qui atque maxime, voluptates pariatur fugit dolore debitis 
             nostrum accusamus ad distinctio. <br>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
               leer más...
             </button>
           </p>
-          <img src="img/slider1.png" class="img-fluid img-content d-none d-md-block" alt="">
+          <a href="#" data-toggle="tooltip" title="Innaguración de la nueva loza deportiva">
+            <img src="img/portada.jpg" class="img-fluid img-content d-none d-md-block" alt="">
+          </a>
+          
+
+          
+          
         </div>
 
         
       </div>
     </div>
-   
-    <div class="container">
+    <!--Mision y la vision-->
+    <div class="contenido pt-5 pb-5">
+      <div class="container">
+        <div class="m-0 vh-50 row justify-content-center align-items-center">
+          
+          <div class="col-auto d-flex">
+            <a href="#" data-toggle="tooltip" title="Innaguración de la nueva loza deportiva">
+              <img src="img/portada.jpg" class="img-fluid img-content d-none d-md-block" alt="">
+            </a>
+            <p class="text-justify m-4" >
+              <strong class="display-4 text-danger">MISIÓN</strong><br><br>
+              
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo non, eos quos porro 
+              fugiat veniam, odio quae nihil qui atque maxime, voluptates pariatur fugit dolore debitis 
+              nostrum accusamus ad distinctio. <br>
+              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
+                leer más...
+              </button>
+            </p>
+            
+            
+  
+            
+            
+          </div>
+  
+          
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="m-0 vh-60 row justify-content-center align-items-center">
+          
+          <div class="col-auto d-flex">
+            <p class="text-justify m-4" >
+              <strong class="display-4 text-danger">Visión</strong><br><br>
+              
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo non, eos quos porro 
+              fugiat veniam, odio quae nihil qui atque maxime, voluptates pariatur fugit dolore debitis 
+              nostrum accusamus ad distinctio. <br>
+              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
+                leer más...
+              </button>
+            </p>
+            <a href="#" data-toggle="tooltip" title="Innaguración de la nueva loza deportiva">
+              <img src="img/portada.jpg" class="img-fluid img-content d-none d-md-block" alt="">
+            </a>
+            
+  
+            
+            
+          </div>
+  
+          
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container pt-5">
       <div class="text-center mb-5">
         <h3 class="mb-5">Nuestra Galeria</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -204,35 +272,35 @@
       </div>
       <div class="row mb-4">
         <div class="col-md-4">
-          <img src="img/img1.jpg" class="img-fluid" alt="">
+          <img src="img/img1.jpg" class="img-fluid animation-img" alt="">
         </div>
         <div class="col-md-4">
-          <img src="img/img2.jpg" class="img-fluid" alt="">
+          <img src="img/img2.jpg" class="img-fluid animation-img" alt="">
         </div>
         <div class="col-md-4">
-          <img src="img/img3.jpg" class="img-fluid" alt="">
+          <img src="img/img3.jpg" class="img-fluid animation-img" alt="">
         </div>
       </div>
       <div class="row mb-4">
         <div class="col-md-4">
-          <img src="img/img1.jpg" class="img-fluid" alt="">
+          <img src="img/img1.jpg" class="img-fluid animation-img" alt="">
         </div>
         <div class="col-md-4">
-          <img src="img/img2.jpg" class="img-fluid" alt="">
+          <img src="img/img2.jpg" class="img-fluid animation-img" alt="">
         </div>
         <div class="col-md-4">
-          <img src="img/img3.jpg" class="img-fluid" alt="">
+          <img src="img/img3.jpg" class="img-fluid animation-img" alt="">
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <img src="img/img1.jpg" class="img-fluid" alt="">
+          <img src="img/img1.jpg" class="img-fluid animation-img" alt="">
         </div>
         <div class="col-md-4">
-          <img src="img/img2.jpg" class="img-fluid" alt="">
+          <img src="img/img2.jpg" class="img-fluid animation-img" alt="">
         </div>
         <div class="col-md-4 mb-5">
-          <img src="img/img3.jpg" class="img-fluid" alt="">
+          <img src="img/img3.jpg" class="img-fluid animation-img" alt="">
         </div>
       </div>
     </div>

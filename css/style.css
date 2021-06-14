@@ -1,4 +1,7 @@
-
+body{
+background-color: whitesmoke!important;
+font-family: 'chivo'!important;
+}
 /*Regla para que los margenes se apliquen solo al contenido de la caja*/
 html {
   -webkit-box-sizing: border-box;
@@ -15,7 +18,7 @@ html {
   list-style: none;
   }
 .colors-header{
-  background-color:#E4E4E4!important;
+  background-color: rgb(144, 149, 153);
 }
 header{
   padding: 1px 0px;
@@ -37,13 +40,13 @@ a span:hover{
 }
 .hover-icon:hover{
   border-radius: 100px;
-  background-color:rgb(136, 136, 136);
+  background-color:rgb(19, 18, 18);
 }
 .colors-iten{
   color: red !important;
 }
 .color-menu{
-  background-color: #E4E4E4;
+  background-color: rgb(144, 149, 153);
 }
 .lista{
   display: inline-block;
@@ -79,10 +82,9 @@ h4 strong{
   
 }
 .carousel-caption{
-  margin-bottom: 220px;
-  
-  
+  margin-bottom: 280px; 
 }
+
 .carousel-caption h3{
   font-size: 95px !important;
 }
@@ -104,10 +106,15 @@ h4 strong{
   --animate-duration: 3s;
 
 }
+.contenido{
+  background-color: blanchedalmond
+}
 
 
 
 .img-content{
-  width:550px !important;
+  width:1000px !important;
   height:300px !important;
+  border: 10px solid red;
+  
 }
