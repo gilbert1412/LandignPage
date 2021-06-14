@@ -6,6 +6,7 @@ html {
   box-sizing: border-box;
 
 }
+
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
@@ -13,9 +14,30 @@ html {
 
   list-style: none;
   }
-
+.colors-header{
+  background-color:#E4E4E4!important;
+}
 header{
   padding: 1px 0px;
+}
+header a{
+  text-decoration: none !important;
+}
+a span{
+
+  color: black !important;
+}
+a span:hover{
+  cursor: default;
+  
+}
+.hover-icon{
+  background-color:rgb(170, 15, 22);
+  padding: 10px;
+}
+.hover-icon:hover{
+  border-radius: 100px;
+  background-color:rgb(136, 136, 136);
 }
 .lista{
   display: inline-block;
@@ -25,9 +47,7 @@ header{
 .mlf-6{
   margin: 0 5px;
 }
-.centrado-vertical{
-  align-items: center;
-}
+
 .centrado-vertical2{
   font-variant: all-small-caps;
 }
