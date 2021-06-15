@@ -1,3 +1,4 @@
+
 /*Regla para que los margenes se apliquen solo al contenido de la caja*/
 html {
   -webkit-box-sizing: border-box;
